@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 72px;
+    background-color:aliceblue;
+    width: 1535px;
+    padding: 0px 64px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+    border: 0.5px solid #a3a3a7;
+    width: 600px;
+    border-radius: 4px;
+
+
+}
+.search-input{
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+}
+.meesho-logo{
+    font-family: cursive;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 22px;
+    height: 36px;
+    width: 152px;
+    color: rgb(63, 2, 45);
+    font-weight: 600;
+    text-align: start;
+}
+.search-icon{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.supply-invest{
+    display: flex;
+    font-size: 16px;
+    color: #353543;
+    margin-top: 15px;
+}
+.supply{
+    margin-right: 15px;
+}
+.font{
+    font-family: Mier book;
+}
+.image i{
+    font-size: 25px;
+}
+.profile:hover{
+    color: rgb(63, 2, 45);
+}
+.panel-ops p{
+    margin-right: 25px;
+    display: inline;
+    margin-left: 15px;
+    color: #353543;
+    font-family: Mier book;
+}
+.panel{
+    height: 52px;
+    width: 100%;
+    border-top: 1px solid rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+}
+.hero-section{
+    background-image: url(hero_image.png);
+    height: 375px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center
+}
+.smart-shop-now h1{
+    margin-right: 150px;
+    font-size: 34px;
+    color: #ffffff;
+}
+.smart-shop-now p{
+    font-size: 24px;
+    background-color: #ffffff;
+    width: 150px;
+    display: inline;
+    margin-left: 100px;
+    color:rgb(63, 2, 45) ;
+    border-radius: 4px;
+}
+.perks-section{
+    background-color: rgb(254, 198, 222);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perks{
+    padding: 12px 24px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 98%;
+    border-radius: 4px;
+    border: 1px solid palevioletred;
+    color: #353543;
+}
+.category-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 40px 64px;
+}
+.box-image{
+    height: 148px;
+    width: 148px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+.box-content {
+    text-align: center;
+    font-size: 10px;
+    color: #353543;
+    font-family: Mier book;
+}
+.gold-section{
+    height: 600px;
+    width: 100%;
+    background-image: url('gold.png');
+    background-repeat: repeat;
+    position:absolute;
+    display: inline;
+    justify-content: right;
+
+}
+.gold-div{
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: normal;
+    margin-top: 60px;
+}
+.gold-box{
+    height: 220px;
+    width: 190px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 60px;
+}
+.div-1{
+    margin-bottom: 110px;
+}
