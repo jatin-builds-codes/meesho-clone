@@ -6,9 +6,9 @@
 .navbar{
     height: 72px;
     background-color:aliceblue;
-    width: 1535px;
-    padding: 0px;
+    width: 100%;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 .nav-search{
@@ -19,8 +19,6 @@
     border: 0.5px solid #a3a3a7;
     width: 600px;
     border-radius: 4px;
-
-
 }
 .search-input{
     height: 45px;
@@ -32,7 +30,7 @@
     font-family: cursive;
     text-align: center;
     font-size: 42px;
-    margin-bottom: 22px;
+    margin-bottom: 28px;
     height: 36px;
     width: 152px;
     color: rgb(63, 2, 45);
@@ -48,7 +46,7 @@
     display: flex;
     font-size: 16px;
     color: #353543;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .supply{
     margin-right: 15px;
@@ -62,12 +60,17 @@
 .profile:hover{
     color: rgb(63, 2, 45);
 }
-.panel-ops p{
+.panel-ops a{
     margin-right: 25px;
     display: inline;
     margin-left: 15px;
     color: #353543;
     font-family: Mier book;
+    text-decoration: none;
+}
+.panel-ops a:hover{
+    color: #9f2089;
+    text-decoration: underline;
 }
 .panel{
     height: 52px;
@@ -147,10 +150,11 @@
     width: 100%;
     background-image: url('gold.png');
     background-repeat: repeat;
-    position:absolute;
-    display: inline;
-    justify-content: right;
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center; 
 }
 .gold-div{
     height: 140px;
@@ -170,10 +174,119 @@
     margin-bottom: 110px;
 }
 .brand-section{
-    height: 470px;
+    height: 160px;
     width: 100%;
+    padding: 60px 64px 16px;
+    display: flex;
+}
+.view-all{
+    margin-left: 1000px;
+    font-size: 18px;
+    color: #9f2089;
+}
+.view-all:hover{
+    text-decoration: underline;
 }
 .original{
     height: 50px;
     width: 230px;
+    font-size: 32px;
+    display: flex;
+    color: #353543;
+    text-align: center;
+    align-items: center;
+}
+.badge{
+    color: blueviolet;
+    size: 25px;
+    margin-left: 10px;
+}
+.img{
+    width: 100%;
+    height: 303px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.brands{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+    justify-content: center;
+    align-content: center;
+    height: 350px;
+}
+.pop-brands{
+    height: 132px;
+    background-color: #F0E9FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.brand{
+    height: 100px;
+    width: 160px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 16px;
+}
+.foot-section{
+    background-image: url(foot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot-features-images{
+    height: 180px;
+    width: 930px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 550px;
+    margin-bottom: 50px;
+}
+.feature{
+    height: 270px;
+    width: 180px;
+    margin-right: 40px;
+    background-size: contain;
+    backgroundrepeat: no-repeat;
+}
+.text{
+    height: 35px;
+    width: 160px;
+    padding: 4px 0px 6px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #580a46;
+    background-color: #fff5e5;
+    border: 1px solid orange;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 70px;
+}
+.foot-features-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.foot-perks{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 466px;
+}
+.download{
+    font-size: 24px;
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    border-radius: 8px;
 }
