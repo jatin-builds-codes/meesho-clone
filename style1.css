@@ -7,9 +7,8 @@
     height: 72px;
     background-color:aliceblue;
     width: 1535px;
-    padding: 0px 64px;
+    padding: 0px;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 .nav-search{
@@ -124,7 +123,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    padding: 40px 64px;
+    padding: 40px ;
 }
 .box-image{
     height: 148px;
@@ -138,7 +137,8 @@
 }
 .box-content {
     text-align: center;
-    font-size: 10px;
+    font-size: 22px;
+    font-family: Mier book;
     color: #353543;
     font-family: Mier book;
 }
@@ -168,4 +168,12 @@
 }
 .div-1{
     margin-bottom: 110px;
+}
+.brand-section{
+    height: 470px;
+    width: 100%;
+}
+.original{
+    height: 50px;
+    width: 230px;
 }
