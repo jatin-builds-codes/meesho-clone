@@ -1,3 +1,3 @@
-# This is my second project of front end based on HTML AND CSS.
+# This is my second front end based project using HTML AND CSS.
 <br>
 It is basically inspired by meesho website.
